@@ -3,6 +3,15 @@ What happens when you initialize a repository?  Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?  What value do you think it offers?
 	staging area lets you get things ready before committing.  I think the working directory is the list of files included in the repository.
+	Now I think the working directory is the folder you are working in.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	run git diff --staged to see that you are only committing one thing at a time
+
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+	experiment with a new feature/create alternate version
+	Branches help by keeping the experimenting clearly separated from the base code so could easily go back to before experiment if need to.
+
+	
 
 
