@@ -12,6 +12,12 @@ What are some situations when branches would be helpful in keeping your history 
 	experiment with a new feature/create alternate version
 	Branches help by keeping the experimenting clearly separated from the base code so could easily go back to before experiment if need to.
 
-	
+How do the diagrams help you visualize the branch structure?
+	makes it easy to see how the branches connect.  much easier to read than the git log --graph --oneline.
 
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+	All code contained in both branches is merged minus any code that was deleted in either branch.
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	pros: combines code much faster, highlighting conflicts
+	cons: doesn't have an overall understanding of the code - assumes all added code is good without understanding how it affects other code
